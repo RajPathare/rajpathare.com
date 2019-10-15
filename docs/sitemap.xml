@@ -23,11 +23,6 @@
   </url>
   
   <url>
-    <loc>https://rajpathare.com/projects/beats/</loc>
-    <lastmod>2019-09-28T13:15:18+05:30</lastmod>
-  </url>
-  
-  <url>
     <loc>https://rajpathare.com/tags/blogs/</loc>
     <lastmod>2019-09-28T13:15:18+05:30</lastmod>
   </url>
@@ -83,22 +78,22 @@
   </url>
   
   <url>
+    <loc>https://rajpathare.com/tags/lyrics/</loc>
+    <lastmod>2019-09-28T13:15:18+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rajpathare.com/projects/lyrics-finder/</loc>
+    <lastmod>2019-09-28T13:15:18+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://rajpathare.com/tags/meteor/</loc>
     <lastmod>2019-09-28T13:15:18+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://rajpathare.com/tags/music/</loc>
-    <lastmod>2019-09-28T13:15:18+05:30</lastmod>
-  </url>
-  
-  <url>
     <loc>https://rajpathare.com/tags/nodejs/</loc>
-    <lastmod>2019-09-28T13:15:18+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rajpathare.com/tags/p5js/</loc>
     <lastmod>2019-09-28T13:15:18+05:30</lastmod>
   </url>
   
@@ -114,6 +109,11 @@
   
   <url>
     <loc>https://rajpathare.com/</loc>
+    <lastmod>2019-09-28T13:15:18+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rajpathare.com/tags/reactjs/</loc>
     <lastmod>2019-09-28T13:15:18+05:30</lastmod>
   </url>
   
