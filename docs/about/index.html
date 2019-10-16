@@ -21,8 +21,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     
+    <link rel="stylesheet" href="../css/mainn.css">
     <link rel="stylesheet" href="../css/default.css">
+    
     <link rel="stylesheet" href="../css/layout.css">
+    
     <link rel="stylesheet" href="../css/media-queries.css">
     <link rel="stylesheet" href="../css/magnific-popup.css">
 
@@ -31,6 +34,43 @@
 
     
     <link rel="shortcut icon" href="https://rajpathare.com/images/favicon.png">
+    <style>
+        .buttonn {
+            display: inline-block;
+     font-family: "poppins-bold", sans-serif;
+     font-size: 1.4rem;
+     text-transform: uppercase;
+     letter-spacing: .3rem;
+     height: 5.4rem;
+     line-height: 5.4rem;
+     padding: 0 3rem;
+     margin: 0 .3rem 1.2rem 0;
+     background: #d8d8d8;
+     color: #313131;
+     text-decoration: none;
+     cursor: pointer;
+     text-align: center;
+     white-space: nowrap;
+     border: none;
+     -moz-transition: all 0.3s ease-in-out;
+     -o-transition: all 0.3s ease-in-out;
+     -webkit-transition: all 0.3s ease-in-out;
+     -ms-transition: all 0.3s ease-in-out;
+     transition: all 0.3s ease-in-out;
+}
+
+.buttonn1 {
+  background-color: transparent;
+  color: white; 
+  border: 2px solid gray;
+}
+
+.buttonn1:hover {
+  background-color: transparent;
+  border: 2px solid #e67300;
+  color:white ;
+}
+        </style>
 
 </head>
 
@@ -46,52 +86,46 @@
 
 <body>
 
+   
+   <section id="intro">   
+
     
-    <header id="home">
 
-        <nav id="nav-wrap">
+    <div class="intro-content">
+        <div class="row">
 
-            <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-            <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+            <div class="col-twelve">
 
-            <ul id="nav" class="nav">
-                <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
-                <li><a class="smoothscroll" href="#about">About</a></li>
-                <li><a class="smoothscroll" href="#resume">Resume</a></li>
-                <li><a class="smoothscroll" href="#portfolio">Projects</a></li>
-                <li><a class="smoothscroll" href="#foot">Contact</a></li>
-            </ul> 
+                
+                <h1>I'm Raj Pathare.</h1>
 
-        </nav> 
-
-        <div class="row banner">
-            <div class="banner-text">
-                <h1 class="responsive-headline">I'm Raj Pathare.</h1>
-                <h2 class="responsive-headline" style="color:white">MERN | DevOps | Unity3D</h2>
-                <h3 style="color: #e67300">I'm a Software Developer, tech geek and a full time learner. It's so nice to
-                    see you here!</h3>
-                <hr />
-                <ul class="social">
-                    <li><a href="https://www.facebook.com/raj.pathare.35"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="https://twitter.com/_rajpathare_"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="https://github.com/RajPathare"><i class="fa fa-github"></i></a></li>
-                    <li><a href="https://in.linkedin.com/in/rajpathare"><i class="fa fa-linkedin"></i></a></li>
-                </ul>
-                <br>
-                <p>
-                    <a href="https://rajpathare.github.io/rajpathare.com/" class="button"
-                        style="background-color: #e67300">Home Page</a>
+                <p class="intro-position">
+                    <span style="color:#e67300">MERN</span>
+                    <span style="color:#e67300">DevOps</span>
+                    <span style="color:#e67300">Unity3D</span> 
                 </p>
+                <h5 style="color:white ">I'm a Software Developer, tech geek and a full time learner. It's so nice to see you here!</h5>
+                <br>
+                
+                <a class="buttonn buttonn1" href="https://rajpathare.com/" title="" style="color:white">Home</a>
+                <a class="buttonn buttonn1 smoothscroll" href="#about" title="" style="color:white">More About Me</a>
+                <a class="buttonn buttonn1 smoothscroll" href="#resume" title="" style="color:white">Resume</a>
+                <a class="buttonn buttonn1 smoothscroll" href="#portfolio" title="" style="color:white">Projects</a>
+                
 
+            </div>  
+            
+        </div>   		 		
+    </div>  
 
-            </div>
-        </div>
+    <ul class="intro-social">        
+      <li><a href="https://www.facebook.com/raj.pathare.35"><i class="fa fa-facebook"></i></a></li>
+      <li><a href="https://twitter.com/_rajpathare_"><i class="fa fa-twitter"></i></a></li>
+      <li><a href="https://github.com/RajPathare"><i class="fa fa-github"></i></a></li>
+      <li><a href="https://in.linkedin.com/in/rajpathare"><i class="fa fa-linkedin"></i></a></li>
+   </ul>       	
 
-        <p class="scrolldown">
-            <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
-        </p>
-
-    </header> 
+</section> 
 
 
     
@@ -132,7 +166,7 @@
                     <div class="columns download">
                         <p>
                             <a href="https://drive.google.com/file/d/1tX5KMXeQIdLol-8KhKQXPIYBRptB897p/view?usp=sharing"
-                                class="button" style="color: #e67300"><i class="fa fa-download"></i>Download Resume</a>
+                                class="buttonn buttonn1" style="color: #e67300"><i class="fa fa-download"></i>Download Resume</a>
                         </p>
                     </div>
 
