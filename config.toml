@@ -1,0 +1,11 @@
+baseURL = "https://rajpathare.com"
+languageCode = "en-us"
+title = "Raj Pathare"
+theme = "hugo-uilite"
+canonifyurls = true
+pluralizelisttitles = false
+publishDir = "docs"
+SectionPagesMenu = "main"
+
+
+
