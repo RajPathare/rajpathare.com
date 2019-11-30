@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>js on Raj Pathare</title>
+    <link>https://rajpathare.com/tags/js/</link>
+    <description>Recent content in js on Raj Pathare</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 Sep 2019 13:15:18 +0530</lastBuildDate>
+    
+	<atom:link href="https://rajpathare.com/tags/js/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Lyrics-finder</title>
+      <link>https://rajpathare.com/projects/lyrics-finder/</link>
+      <pubDate>Sat, 28 Sep 2019 13:15:18 +0530</pubDate>
+      
+      <guid>https://rajpathare.com/projects/lyrics-finder/</guid>
+      <description> Lyrics-finder Find the lyrics for any song! Made with Reactjs and context-api
+ Check the website here  Screenshots About the project  The website can be used to find lyrics for any song. Type in a song title and the list of all matching songs will be listed. This was my first Reactjs project. I wanted to learn reactjs and was curious about the working of context-api.  Technologies used:  Reactjs, context-api, Bootstrap  </description>
+    </item>
+    
+  </channel>
+</rss>

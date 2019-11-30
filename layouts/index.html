@@ -1,18 +1,70 @@
-{{ partial "header.html" . }}
-{{ partial "sidebar.html" . }}
+{{- define "main" -}}
 
-<div class="main-content">
-	{{ partial "experience.html" . }}
-	{{ partial "skills.html" . }}
-</div>
+<section class="hero is-fullheight is-default is-bold">
 
-<div style="z-index: 4; position: relative;">
-	{{ if gt (len (where .Data.Pages "Type" "blog")) 0 }}{{ partial "blog.html" . }}{{ end }}
-	{{ if gt (len (where .Data.Pages "Type" "work")) 0 }}{{ partial "work.html" . }}{{ end }}
-</div>
+    {{- partial "navbar.html" . -}}
+    {{- partial "navbar-clone.html" . -}}
 
-<div class="main-content">
-	{{ partial "contact.html" . }}		
-</div>
+    {{- $homepage   := .Site.Params.homepage -}}
+    {{- $title      := index $homepage "title" -}}
+    {{- $subtitle   := index $homepage "subtitle" -}}
+    {{- $subtitle2   := index $homepage "subtitle2" -}}
+    {{- $image      := index $homepage "image" -}}
+    <div class="hero-body">
+        <div class="container">
+            <div class="columns is-vcentered">
+                <div class="column is-5 is-offset-1 landing-caption">
+                    <h1 class="title is-1 is-bold is-spaced">
+                        {{- $title -}}
+                    </h1>
+                    {{- with $subtitle -}}
+                    <h2 class="subtitle is-5 is-muted">
+                        {{ . }}
+                    </h2>
+                    {{- end -}}
+                    {{/*  <p>
+                <a class="button cta rounded primary-btn raised" href="{{- $buttonLink -}}">
+                    {{- $buttonText -}}
+                    </a>
+                    </p> */}}
+                </div>
+                <div class="column is-5 is-offset-1">
+                    <figure class="image">
+                        {{- $img := resources.Get $image -}}
+                        <img src="{{- $img.Permalink | relURL -}}"
+                            style="width:{{- .Site.Params.homepage.imageWidth -}}" alt="Myself">
+                    </figure>
+                </div>
+            </div>
+            <br>
 
-{{ partial "footer-scripts.html" . }}
+
+            <div class="columns">
+                {{ $sections := where (.Site.Pages) "Kind" "section" }}
+                {{ range sort $sections ".Title"  }}
+                <div class="column is-4">
+                    <div class="box">
+                        <figure>
+                            <a href="{{.Permalink}}" style="color: gray">
+                                <h3 class="title" align="center">{{ .Title }}</h3>
+                                <h6 class="summary-summary" align="center">{{ .Description }}</h6>
+                            </a>
+                        </figure>
+
+                    </div>
+
+                </div>
+                {{ end }}
+            </div>
+
+
+        </div>
+    </div>
+</section>
+
+{{- partial "footer.html" . -}}
+
+<!-- Back To Top Button -->
+<div id="backtotop"><a href="#"></a></div>
+
+{{- end -}}

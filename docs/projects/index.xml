@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Raj Pathare</title>
+    <link>https://rajpathare.com/projects/</link>
+    <description>Recent content in Projects on Raj Pathare</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 Sep 2019 13:15:18 +0530</lastBuildDate>
+    
+	<atom:link href="https://rajpathare.com/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Angry Meteor</title>
+      <link>https://rajpathare.com/projects/angrymeteor/</link>
+      <pubDate>Sat, 28 Sep 2019 13:15:18 +0530</pubDate>
+      
+      <guid>https://rajpathare.com/projects/angrymeteor/</guid>
+      <description>AngryMeteor AngryMeteor is a hypercasual game, where you need to save your planet from a meteor shower.
+Link Check the game here!
+Game Demo -- Developer  Raj Pathare  Platforms  Android (v4.1+) PC  Graphics/Textures The game graphics are specially designed for mobile users. The textures are chosen in such a way that the users may not experience any lag while playing the game.
+Future work To add more features in the game like - powerups, adding more custom levels.</description>
+    </item>
+    
+    <item>
+      <title>ARNotes</title>
+      <link>https://rajpathare.com/projects/arnotes/</link>
+      <pubDate>Sat, 28 Sep 2019 13:15:18 +0530</pubDate>
+      
+      <guid>https://rajpathare.com/projects/arnotes/</guid>
+      <description>An AR-based Piano(Keyboard) app which responds to your real-time key press .
+ Download the app here  Steps to be followed  Take a print-out of the given piano (image),it is recommmended to take a medium-sized print for better usability.   Download and install the application,the dropbox link for the same is provided above. After installing the application,open it and focus your camera on the print-out (the piano).</description>
+    </item>
+    
+    <item>
+      <title>ChitChat</title>
+      <link>https://rajpathare.com/projects/chitchat/</link>
+      <pubDate>Sat, 28 Sep 2019 13:15:18 +0530</pubDate>
+      
+      <guid>https://rajpathare.com/projects/chitchat/</guid>
+      <description>ChitChat ChitChat is a chat application where users can join and chat in different rooms. Socket.io is used for connecting different users together.
+ Check the website here  Screenshots About the project  Type in your username and the desired room that you wish to enter. If the room doesn&amp;rsquo;t exist, it will be created when you type in a new room. You can see the users present in the room and chat with them / send them your location.</description>
+    </item>
+    
+    <item>
+      <title>Games Bond</title>
+      <link>https://rajpathare.com/projects/gamesbond/</link>
+      <pubDate>Sat, 28 Sep 2019 13:15:18 +0530</pubDate>
+      
+      <guid>https://rajpathare.com/projects/gamesbond/</guid>
+      <description> Games Bond A simple website(front-end) , where you can access a bunch of flash games.
+Check the website here
+Screenshots About the project  You can play different flash games here. This was my first web project. I wanted to learn HTML/CSS.  Technologies used:  HTML5, CSS  </description>
+    </item>
+    
+    <item>
+      <title>Lyrics-finder</title>
+      <link>https://rajpathare.com/projects/lyrics-finder/</link>
+      <pubDate>Sat, 28 Sep 2019 13:15:18 +0530</pubDate>
+      
+      <guid>https://rajpathare.com/projects/lyrics-finder/</guid>
+      <description> Lyrics-finder Find the lyrics for any song! Made with Reactjs and context-api
+ Check the website here  Screenshots About the project  The website can be used to find lyrics for any song. Type in a song title and the list of all matching songs will be listed. This was my first Reactjs project. I wanted to learn reactjs and was curious about the working of context-api.  Technologies used:  Reactjs, context-api, Bootstrap  </description>
+    </item>
+    
+    <item>
+      <title>Weatherlive!</title>
+      <link>https://rajpathare.com/projects/weatherlive/</link>
+      <pubDate>Sat, 28 Sep 2019 13:15:18 +0530</pubDate>
+      
+      <guid>https://rajpathare.com/projects/weatherlive/</guid>
+      <description>Weatherlive! Weatherlive lets you get the current temperature in the specified area as well as the temperature throughout the week. It uses mapbox API for fetching the latitude and longitude of the area and this data is then passed to the darksky API for fetching the temperature.
+Check the website here
+Screenshots About the project  Find the current temperature as well as the temperature throughout the week. Type in the country/city in the search box.</description>
+    </item>
+    
+  </channel>
+</rss>
