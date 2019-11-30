@@ -1,4 +1,4 @@
-baseURL = "https://rajpathare.com"
+baseURL = "https://rajpathare.com/"
 languageCode = "en-us"
 title = "Raj Pathare"
 theme = "hugo-uilite"
