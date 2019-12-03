@@ -5,7 +5,7 @@
     content="{{ range $index, $element := .Keywords }}{{ if gt $index 0 }},{{ end }}{{ . }}{{ else }}{{ .Site.Params.defaultKeywords }}{{ end }}">
 <meta name="description"
     content="{{ if eq  .Summary  .Description }}{{ .Description }}{{ else }}{{ with .Summary }}{{.}} {{ end }}{{ .Description }}{{ end }}">
-<link rel="canonical" href="{{ .Permalink }}" />
+<link rel="canonical" href="https://rajpathare.com/" />
 <title>{{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} -
     {{ end }}{{ .Site.Title }}{{ end }}</title>
 <!-- Global site tag (gtag.js) - Google Analytics -->
