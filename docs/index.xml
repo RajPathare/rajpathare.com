@@ -44,6 +44,16 @@ Future work To add more features in the game like - powerups, adding more custom
     </item>
     
     <item>
+      <title>COVID19-Tracker</title>
+      <link>https://rajpathare.com/projects/covid19tracker/</link>
+      <pubDate>Sat, 28 Sep 2019 13:15:18 +0530</pubDate>
+      
+      <guid>https://rajpathare.com/projects/covid19tracker/</guid>
+      <description> About the project -  This site lets you track the new coronavirus (COVID-19). Since the data is public, it can be fetched easily. The JSON data gets updated every 30mins.  Check the website here
+Screenshot - Technologies used - Reactjs, netlify(Hosting) </description>
+    </item>
+    
+    <item>
       <title>Games Bond</title>
       <link>https://rajpathare.com/projects/gamesbond/</link>
       <pubDate>Sat, 28 Sep 2019 13:15:18 +0530</pubDate>
@@ -80,17 +90,6 @@ Screenshots About the project  You can play different flash games here. This was
       
       <guid>https://rajpathare.com/resource/unityresources/</guid>
       <description>Sites  Unity Official Site: Start bringing your vision to life today. Unitys real-time 3D development platform empowers you with all you need to create, operate, and monetize. Unity learn - Raywenderlich: In this Unity learning path for beginners, you will learn the fundamental techniques in Unity development, such as Animation, Sound, Particle Systems, Scripting, UI, and much more. Unity3D for Absolute Beginners: New to Unity? You should definetely check this site out.</description>
-    </item>
-    
-    <item>
-      <title>Weatherlive!</title>
-      <link>https://rajpathare.com/projects/weatherlive/</link>
-      <pubDate>Sat, 28 Sep 2019 13:15:18 +0530</pubDate>
-      
-      <guid>https://rajpathare.com/projects/weatherlive/</guid>
-      <description>Weatherlive! Weatherlive lets you get the current temperature in the specified area as well as the temperature throughout the week. It uses mapbox API for fetching the latitude and longitude of the area and this data is then passed to the darksky API for fetching the temperature.
-Check the website here
-Screenshots About the project  Find the current temperature as well as the temperature throughout the week. Type in the country/city in the search box.</description>
     </item>
     
   </channel>

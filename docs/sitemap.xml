@@ -38,7 +38,17 @@
   </url>
   
   <url>
-    <loc>https://rajpathare.com/tags/current-status/</loc>
+    <loc>https://rajpathare.com/tags/covid19/</loc>
+    <lastmod>2019-09-28T13:15:18+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rajpathare.com/projects/covid19tracker/</loc>
+    <lastmod>2019-09-28T13:15:18+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rajpathare.com/tags/covid19tracker/</loc>
     <lastmod>2019-09-28T13:15:18+05:30</lastmod>
   </url>
   
@@ -59,11 +69,6 @@
   
   <url>
     <loc>https://rajpathare.com/projects/gamesbond/</loc>
-    <lastmod>2019-09-28T13:15:18+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rajpathare.com/tags/get-weather/</loc>
     <lastmod>2019-09-28T13:15:18+05:30</lastmod>
   </url>
   
@@ -94,6 +99,11 @@
   
   <url>
     <loc>https://rajpathare.com/tags/nodejs/</loc>
+    <lastmod>2019-09-28T13:15:18+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rajpathare.com/tags/pandemic/</loc>
     <lastmod>2019-09-28T13:15:18+05:30</lastmod>
   </url>
   
@@ -149,16 +159,6 @@
   
   <url>
     <loc>https://rajpathare.com/resource/unityresources/</loc>
-    <lastmod>2019-09-28T13:15:18+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rajpathare.com/tags/weather/</loc>
-    <lastmod>2019-09-28T13:15:18+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rajpathare.com/projects/weatherlive/</loc>
     <lastmod>2019-09-28T13:15:18+05:30</lastmod>
   </url>
   
