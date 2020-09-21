@@ -406,16 +406,32 @@ width:110px;
                                 Present</em></p>
 
                         <p style="color: #331a00">
-                             Role: DevOps<br>
-                            Technologies used - Docker, Kubernetes, Jenkins, Ansible, NodeJS. <br>
+                             <b>Role: DevOps<br></b>
+                            <b>Technologies used - Docker, Kubernetes, Jenkins, Ansible, NodeJS.</b> <br>
 
-                            - Developed and maintained automated CI/CD pipelines for different JioMedia applications - JioGate, JioTV+, JioANPR, JioFace, JioNews, JioWebinar using Jenkins. <br>
-                            - Ansible for deploying various features on multiple servers. <br>
-                            - Built and deployed Docker containers for implementing Microservice Architecture from Monolithic Architecture. <br>
-                            - Used Kubernetes as an orchestration tool for managing Docker containers. <br>
-                            - Worked on building PRE-PROD Kubernetes cluster from scratch for deploying JioMedia applications.<br>
-                            - Deployed monitoring system (Prometheus-Thanos + Grafana) on multiple JioMedia Kubernetes clusters (DEV/ PRE-PROD/ PROD)<br>
-                            - Worked on nodejs applications to deliver db services in a more efficient way (Developed various DB APIs to solve accessibility issues).
+                            - Developed and maintained automated CI/CD pipelines for different JioMedia applications - JioGate, JioTVPlus, JioANPR, JioFace, JioGames, JioNews, JioWebinar using Jenkins.<br>
+                            - Used Ansible for deploying various features on multiple servers.<br>
+                            - Built and deployed Docker containers for implementing Microservice Architecture from Monolithic Architecture.<br>
+                            - Used Kubernetes as an orchestration tool for managing Docker containers.<br>
+                            - Worked on building PT(Perf testing) Kubernetes cluster from scratch for deploying JioMedia applications.<br>
+                            - Deployed monitoring system (Prometheus-Thanos + Grafana) on all JioMedia Kubernetes clusters.<br><br>
+
+                            Nodejs Projects -<br>
+
+                            <b>JioMonitor</b><br>
+                            An application that was created for monitoring databases present inside the Kubernetes cluster. Due to k8s node fluctuations, there might be a possibility of DB failure. We made JioMonitor for actively monitoring all databases and sending a success/failure mail to the desired team so that the DB issue gets reported quickly and the issue gets resolved on time. We used the Kubernetes API client for fetching database credentials which were stored as k8s secrets.<br>
+                            Supported databases -<br>
+                            - MongoDB<br>
+                            - MySQL<br>
+                            - Redis<br>
+                            - Elasticsearch<br><br>
+
+                            <b>CronJob generator (Database backup)</b><br>
+                            A project which was created for generating cronjobs for backing up k8s databases. It provides a single page UI wherein you need to enter your cronjob details. After filling up the details, you can download your cronjob by just clicking on the generate cron button. The basic idea behind generating the cron file is to keep a templatized cron format and when the user clicks on the generate button, we fill up the required info in the cron template.<br>
+                            Supported databases -<br>
+                            - MongoDB<br>
+                            - MySQL<br>
+                            - Elasticsearch
                         </p>
 
                     </div>
@@ -433,8 +449,8 @@ width:110px;
                                 April 2019</em></p>
 
                         <p style="color: #331a00">
-                            Worked on multiple hyper-casual games like - PlusOne, Angry Meteor, Spikey.
-                            Technologies used - Unity3D, Blender.
+                            Worked on multiple hyper-casual games like - PlusOne, Angry Meteor, Spikey.<br>
+                            <b>Technologies used - Unity3D, Blender.</b>
                         </p>
 
                     </div>
@@ -472,8 +488,8 @@ width:110px;
                                 September 2018</em></p>
 
                         <p style="color: #331a00">
-                            Developed a game - "Car Bounce"
-                            Technologies used - Unity3D, Blender.
+                            Developed a game - "Car Bounce"<br>
+                            <b>Technologies used - Unity3D, Blender.</b>
                         </p>
 
                     </div>
