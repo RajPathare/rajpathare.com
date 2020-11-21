@@ -32,7 +32,7 @@
                     <figure class="image">
                         {{- $img := resources.Get $image -}}
                         <img src="{{- $img.Permalink | relURL -}}"
-                            style="width:{{- .Site.Params.homepage.imageWidth -}}" alt="Myself">
+                            style="width:{{- .Site.Params.homepage.imageWidth -}}; height:{{- .Site.Params.homepage.imageHeight -}}" alt="Myself">
                     </figure>
                 </div>
             </div>

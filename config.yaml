@@ -51,7 +51,7 @@ params:
   # 404 page options
   pagNotFound:
     # option to specify the main picture of the sidebar
-    image: "/images/RajPathare.jpg"
+    image: "/images/RajPathare.png"
     # option to specify the title of the 404 page
     title: 404 Page Not Found :(
     # option to specify the subtitle of the 404 page
@@ -66,10 +66,11 @@ params:
     # option to specify the subtitle in the homepage
     subtitle: I'm a Software Developer, tech geek and a full time learner. It's so nice to see you here!
     # option to specify image in the homepage
-    image: "/images/RajPathare.jpg" # worker.svg 
+    image: "/images/RajPathare.png" # worker.svg 
     # option to specify the width of the image in the homepage
-    imageWidth: 400px
-
+    imageWidth: 500px
+    # image height
+    imageHeight: 440px
   # footer options
   footer:
     # option to specify the logo in the footer

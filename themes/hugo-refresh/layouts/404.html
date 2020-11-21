@@ -23,7 +23,7 @@
             <figure class="image">
                 {{- $img := resources.Get $image -}}
                 <img src="{{- $img.Permalink | relURL -}}" 
-                     style="width:{{- .Site.Params.pagNotFound.imageWidth -}}" alt="Myself">
+                     style="width:{{- .Site.Params.pagNotFound.imageWidth -}} ; height:{{- .Site.Params.homepage.imageHeight -}}" alt="Myself">
             </figure>
           </div>
         </div>
