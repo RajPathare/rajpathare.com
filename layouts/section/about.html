@@ -315,12 +315,12 @@ width:110px;
 
 
 
-                    <div class="columns download">
+                    <!-- <div class="columns download">
                         <p>
                             <a href="https://drive.google.com/file/d/1I0y93bUh6QXT_f5iQUX4oWus4NqdLGuL/view?usp=sharing"
                                 class="buttonn buttonn1" style="color: #e67300"><i class="fa fa-download"></i>Download Resume</a>
                         </p>
-                    </div>
+                    </div> -->
 
                 </div> <!-- end row -->
 
@@ -428,28 +428,24 @@ width:110px;
                             <b>Technologies used - Docker, Kubernetes, Jenkins, Ansible, NodeJS.</b> <br>
 
                             - Developed and maintained automated CI/CD pipelines for different JioMedia applications - JioGate, JioTVPlus, JioANPR, JioFace, JioGames, JioNews, JioWebinar using Jenkins.<br>
-                            - Used Ansible for deploying various features on multiple servers.<br>
-                            - Built and deployed Docker containers for implementing Microservice Architecture from Monolithic Architecture.<br>
-                            - Used Kubernetes as an orchestration tool for managing Docker containers.<br>
+                            - Developed Ansible playbooks for deploying various features on multiple servers and also for creating Kubernetes clusters.<br>
+                            - Extensively used Kubernetes as an orchestration tool for managing Docker containers.<br>
                             - Worked on building PT(Perf testing) Kubernetes cluster from scratch for deploying JioMedia applications.<br>
                             - Deployed monitoring system (Prometheus-Thanos + Grafana) on all JioMedia Kubernetes clusters.<br><br>
 
                             Nodejs Projects -<br>
 
                             <b>JioMonitor</b><br>
-                            An application that was created for monitoring databases present inside the Kubernetes cluster. Due to k8s node fluctuations, there might be a possibility of DB failure. We made JioMonitor for actively monitoring all databases and sending a success/failure mail to the desired team so that the DB issue gets reported quickly and the issue gets resolved on time. We used the Kubernetes API client for fetching database credentials which were stored as k8s secrets.<br>
-                            Supported databases -<br>
-                            - MongoDB<br>
-                            - MySQL<br>
-                            - Redis<br>
-                            - Elasticsearch<br><br>
+                            An application that was created for monitoring databases present inside the Kubernetes cluster. Due to k8s node fluctuations, there might be a possibility of DB failure. We made JioMonitor for actively monitoring all databases and sending a success/failure mail to the desired team so that the DB issue gets reported quickly and the issue gets resolved on time. We used the Kubernetes API client for fetching database credentials which were stored as k8s secrets.<br><br>
+                            
+                            <b>Auto-pod spawn API for multiple applications</b><br>
+                            Developed auto-pod spawn API for multiple applications. The API can be called for creating/deleting a particular pod in any namespace. I worked on deploying FFmpeg pods in real-time using the Kubernetes API client. The API takes in some camera arguments (RTSP stream, camera name) and spawns an FFmpeg pod in the provided namespace, processes the live stream, and saves the processed output in NFS.<br><br>
 
-                            <b>CronJob generator (Database backup)</b><br>
-                            A project which was created for generating cronjobs for backing up k8s databases. It provides a single page UI wherein you need to enter your cronjob details. After filling up the details, you can download your cronjob by just clicking on the generate cron button. The basic idea behind generating the cron file is to keep a templatized cron format and when the user clicks on the generate button, we fill up the required info in the cron template.<br>
-                            Supported databases -<br>
-                            - MongoDB<br>
-                            - MySQL<br>
-                            - Elasticsearch
+                            <b>Cronjob generator</b><br>
+                            Created a single-page UI for generating cron files which can be used for backing up different databases.<br><br>
+                            <b>K8sNode status</b><br>
+                            An application that sends an email every hour which includes an excel sheet consisting of the overall Kubernetes node status.<br>
+
                         </p>
 
                     </div>
@@ -491,24 +487,6 @@ width:110px;
                             increasing the CB user-base.
                         </p>
 
-
-                    </div>
-
-                </div> <!-- item end -->
-
-                <div class="row item">
-
-                    <div class="twelve columns">
-
-                        <h3 style="color: #e67300">Bachmanity Games</h3>
-                        <p class="info" style="color: #331a00">Unity3D Game Development Intern<span>&bull;</span> <em
-                                class="date">June 2018 -
-                                September 2018</em></p>
-
-                        <p style="color: #331a00">
-                            Developed a game - "Car Bounce"<br>
-                            <b>Technologies used - Unity3D, Blender.</b>
-                        </p>
 
                     </div>
 
