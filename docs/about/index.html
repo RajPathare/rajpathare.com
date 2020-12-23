@@ -406,27 +406,17 @@ width:110px;
                                 Present</em></p>
 
                         <p style="color: #331a00">
-                             <b>Role: DevOps<br></b>
-                            <b>Technologies used - Docker, Kubernetes, Jenkins, Ansible, NodeJS.</b> <br>
+                            <b>Role: DevOps</b><br/>
+                            I've mainly worked on <b>Docker, Kubernetes, Jenkins, Ansible, Nodejs</b>, here at Jio.</br>
 
-                            - Developed and maintained automated CI/CD pipelines for different JioMedia applications - JioGate, JioTVPlus, JioANPR, JioFace, JioGames, JioNews, JioWebinar using Jenkins.<br>
-                            - Developed Ansible playbooks for deploying various features on multiple servers and also for creating Kubernetes clusters.<br>
-                            - Extensively used Kubernetes as an orchestration tool for managing Docker containers.<br>
-                            - Worked on building PT(Perf testing) Kubernetes cluster from scratch for deploying JioMedia applications.<br>
-                            - Deployed monitoring system (Prometheus-Thanos + Grafana) on all JioMedia Kubernetes clusters.<br><br>
-
-                            Nodejs Projects -<br>
-
-                            <b>JioMonitor</b><br>
-                            An application that was created for monitoring databases present inside the Kubernetes cluster. Due to k8s node fluctuations, there might be a possibility of DB failure. We made JioMonitor for actively monitoring all databases and sending a success/failure mail to the desired team so that the DB issue gets reported quickly and the issue gets resolved on time. We used the Kubernetes API client for fetching database credentials which were stored as k8s secrets.<br><br>
-                            
-                            <b>Auto-pod spawn API for multiple applications</b><br>
-                            Developed auto-pod spawn API for multiple applications. The API can be called for creating/deleting a particular pod in any namespace. I worked on deploying FFmpeg pods in real-time using the Kubernetes API client. The API takes in some camera arguments (RTSP stream, camera name) and spawns an FFmpeg pod in the provided namespace, processes the live stream, and saves the processed output in NFS.<br><br>
-
-                            <b>Cronjob generator</b><br>
-                            Created a single-page UI for generating cron files which can be used for backing up different databases.<br><br>
-                            <b>K8sNode status</b><br>
-                            An application that sends an email every hour which includes an excel sheet consisting of the overall Kubernetes node status.<br>
+                            • Developed and maintained automated CI/CD pipelines for different JioMedia applications using Jenkins.</br>
+                            • Developed Ansible playbooks for deploying various features on multiple servers and also for creating Kubernetes clusters from scratch.</br>
+                            • Extensively used Kubernetes as an orchestration tool for managing Docker containers.</br>
+                            • Worked on building PT(Perf testing) Kubernetes cluster from scratch for deploying JioMedia applications.</br>
+                            • Deployed monitoring system (Prometheus-Thanos + Grafana) on all JioMedia Kubernetes clusters (Dev/Prod) and created custom Grafana dashboards for all applications.</br>
+                            • Worked on migrating the data analytics stack (Kafka->Flink->Minio->Spark->MySQL) on Kubernetes. Also worked on deploying Kubeflow/MLflow for streamlining the ML pipeline.</br>
+                            • Developed JioMonitor - A Nodejs project which uses the Kubernetes API client for actively monitoring all databases present inside the cluster and sends an email to the desired team if some database goes down so that the issue gets resolved on time.</br>
+                            • Worked on multiple Nodejs projects for automatically spawning/deleting custom pods inside the cluster, so as to avoid the manual work of deploying pods with the custom config.
 
                         </p>
 
@@ -437,7 +427,6 @@ width:110px;
                 <div class="row item">
 
                     <div class="twelve columns">
-
                         <h3 style="color: #e67300">10Static Inc</h3>
                         <p class="info" style="color: #331a00">Unity3D Game Development Intern<span>&bull;</span> <em
                                 class="date">January 2019
@@ -445,8 +434,8 @@ width:110px;
                                 April 2019</em></p>
 
                         <p style="color: #331a00">
-                            Worked on multiple hyper-casual games like - PlusOne, Angry Meteor, Spikey.<br>
-                            <b>Technologies used - Unity3D, Blender.</b>
+                            • Worked on multiple hyper-casual games like - PlusOne, Angry Meteor, Spikey.<br>
+                            <b>• Technologies used - Unity3D, Blender.</b>
                         </p>
 
                     </div>
