@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Resources on Raj Pathare</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Resources on Raj Pathare</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Sep 2019 13:15:18 +0530</lastBuildDate>
-    
-	<atom:link href="https://rajpathare.com/resource/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 28 Sep 2019 13:15:18 +0530</lastBuildDate><atom:link href="https://rajpathare.com/resource/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Some cool blogs</title>
       <link>https://rajpathare.com/resource/blogs/</link>

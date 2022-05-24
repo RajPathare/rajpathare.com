@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>augmentedreality on Raj Pathare</title>
@@ -6,11 +6,7 @@
     <description>Recent content in augmentedreality on Raj Pathare</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Sep 2019 13:15:18 +0530</lastBuildDate>
-    
-	<atom:link href="https://rajpathare.com/tags/augmentedreality/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 28 Sep 2019 13:15:18 +0530</lastBuildDate><atom:link href="https://rajpathare.com/tags/augmentedreality/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ARNotes</title>
       <link>https://rajpathare.com/projects/arnotes/</link>
@@ -18,7 +14,7 @@
       
       <guid>https://rajpathare.com/projects/arnotes/</guid>
       <description>An AR-based Piano(Keyboard) app which responds to your real-time key press .
- Download the app here  Steps to be followed  Take a print-out of the given piano (image),it is recommmended to take a medium-sized print for better usability.   Download and install the application,the dropbox link for the same is provided above. After installing the application,open it and focus your camera on the print-out (the piano).</description>
+ Download the app here  Steps to be followed  Take a print-out of the given piano (image),it is recommmended to take a medium-sized print for better usability.   Download and install the application,the dropbox link for the same is provided above. After installing the application,open it and focus your camera on the print-out (the piano). Press the keys and enjoy playing your favourite instrument with some added twist.</description>
     </item>
     
   </channel>

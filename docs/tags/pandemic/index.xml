@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>pandemic on Raj Pathare</title>
@@ -6,18 +6,14 @@
     <description>Recent content in pandemic on Raj Pathare</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Sep 2019 13:15:18 +0530</lastBuildDate>
-    
-	<atom:link href="https://rajpathare.com/tags/pandemic/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 28 Sep 2019 13:15:18 +0530</lastBuildDate><atom:link href="https://rajpathare.com/tags/pandemic/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>COVID19-Tracker</title>
       <link>https://rajpathare.com/projects/covid19tracker/</link>
       <pubDate>Sat, 28 Sep 2019 13:15:18 +0530</pubDate>
       
       <guid>https://rajpathare.com/projects/covid19tracker/</guid>
-      <description> About the project -  This site lets you track the new coronavirus (COVID-19). Since the data is public, it can be fetched easily. The JSON data gets updated every 30mins.  Check the website here
+      <description>About the project -  This site lets you track the new coronavirus (COVID-19). Since the data is public, it can be fetched easily. The JSON data gets updated every 30mins.  Check the website here
 Screenshot - Technologies used - Reactjs, netlify(Hosting) </description>
     </item>
     
