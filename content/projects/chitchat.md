@@ -11,7 +11,6 @@ short: 'ChitChat is a chat application where users can join and chat in differen
 
 ChitChat is a chat application where users can join and chat in different rooms. Socket.io is used for connecting different users together.
 
-- [Check the website here](https://rajpathare-socketio-chatapp.herokuapp.com)
 
 ## Screenshots
 

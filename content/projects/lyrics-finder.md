@@ -11,7 +11,6 @@ short: 'Find the lyrics for any song! Made with Reactjs and context-api'
 
 Find the lyrics for any song! Made with Reactjs and context-api
 
-- [Check the website here](https://lyrics-finder-app-react.netlify.com)
 
 ## Screenshots
 
